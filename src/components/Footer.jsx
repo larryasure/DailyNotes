@@ -8,7 +8,7 @@ import Twitter from "../assets/Twitter.png";
 export default function Footer() {
   return (
     <>
-      <div className="min-h-40 px-8 py-5  bg-[#FAF6E2] text-black grid md:grid-cols-3 sm:grid-cols-2 gap-7 grid-cols-1 ">
+      <div className="min-h-40 px-8 py-6  bg-[#FAF6E2] text-black grid md:grid-cols-3 sm:grid-cols-2 gap-7 grid-cols-1 ">
         <div className="flex items-start flex-col gap-3  grid-cols-1">
           <NavLink to="/" className="flex items-center gap-2 mb-2">
             <p className="text-clip text-transparent bg-linear-to-r bg-clip-text from-amber-400 to-[#46e59d] text-lg font-bold">
