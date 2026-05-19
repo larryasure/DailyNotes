@@ -49,7 +49,7 @@ export default function Register() {
     }
 
     try {
-      await api.post("/register/", formData);
+      await api.post("register/", formData);
       setSuccess("Account created Successfully");
       setUsername("");
       setEmail("");

@@ -25,7 +25,7 @@ export default function Login() {
     }
 
     try {
-      const res = await api.post("/token/", {
+      const res = await api.post("token/", {
         username,
         password,
       });
