@@ -2,8 +2,9 @@ import axios from "axios";
 import { ACCESS_TOKEN } from "../constants/constant.js";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL
-})
+  baseURL: "https://authreloaded-backend.onrender.com/api/"
+});
+
 console.log("API URL:", import.meta.env.VITE_API_URL);
 
 api.interceptors.request.use(
