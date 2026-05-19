@@ -1,5 +1,5 @@
 import { useState } from "react";
-import api from "../api/api";
+import api from "../api/api.js";
 
 export default function CreateDiary() {
   const [content, setContent] = useState("");

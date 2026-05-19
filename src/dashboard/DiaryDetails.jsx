@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import api from "../api/api";
+import api from "../api/api.js";
 
 export default function DiaryDetails() {
   const { id } = useParams();

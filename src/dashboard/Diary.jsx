@@ -1,7 +1,7 @@
 import { TriangleAlert } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import api from "../api/api";
+import api from "../api/api.js";
 import DiaryCard from "./DiaryCard";
 
 export default function Diary() {

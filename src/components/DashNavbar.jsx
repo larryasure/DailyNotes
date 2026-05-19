@@ -1,7 +1,7 @@
 import { LogOut, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import api from "../api/api";
+import api from "../api/api,js";
 import { ACCESS_TOKEN, REFRESH_TOKEN } from "../constants/constant";
 
 export default function DashNavbar() {
